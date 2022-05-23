@@ -68,24 +68,24 @@
 .header__menu-item+.header__menu-item {
     margin-left: 45px;
 }
+.header__menu-link{
+    color: #fff;
+}
 .header__menu-link {
     text-decoration: underline;
-    -webkit-text-decoration-color: transparent;
     text-decoration-color: transparent;
-    -moz-text-decoration-color: transparent;
-    -webkit-transition: text-decoration-color 0.3s;
-    transition: -webkit-text-decoration-color 0.3s;
-    transition: text-decoration-color 0.3s;
-    transition: text-decoration-color 0.3s, -webkit-text-decoration-color 0.3s;
-    -webkit-transition: text-decoration-color 0.3s;
-    -moz-transition: text-decoration-color 0.3s;
-    -ms-transition: text-decoration-color 0.3s;
-    -o-transition: text-decoration-color 0.3s;
-}
+    -webkit-text-decoration-color: transparent;
+    -moz-text-decoration-color: transparent;}
 .header__menu-link:hover {
-    -webkit-text-decoration-color: inherit;
     text-decoration-color: inherit;
+    -webkit-text-decoration-color: inherit;
     -moz-text-decoration-color: inherit;
+}
+.header__menu-link--active {
+    color: #ECD6B6;
+    text-decoration-color: inherit;
+        -webkit-text-decoration-color: inherit;
+        -moz-text-decoration-color: inherit;
 }
 .header__theme:hover {
     cursor: pointer;
