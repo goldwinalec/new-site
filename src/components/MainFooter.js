@@ -1,10 +1,11 @@
 import React from 'react';
+import classes from './MainFooter.module.css';
 
 const MainFooter = () => {
   return (
-    <footer className='footer'>
+    <footer className={classes.footer}>
       <div className='container'>
-        <div className='footer__policy'>
+        <div className={classes.footer__policy}>
           GoldwinAlec | 2022 © All rights reserved
         </div>
       </div>

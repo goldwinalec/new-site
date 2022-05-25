@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, Fragment } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import MainHeader from './components/MainHeader';
 import MainFooter from './components/MainFooter';
@@ -13,7 +13,7 @@ const NotFound = React.lazy(() => import('./pages/NotFound'));
 
 const App = () => {
   return (
-    <React.Fragment>
+    <Fragment>
       <MainHeader />
       <main>
         <Suspense fallback='Loading...'>
@@ -29,7 +29,7 @@ const App = () => {
         </Suspense>
       </main>
       <MainFooter />
-    </React.Fragment>
+    </Fragment>
   );
 };
 

@@ -8,28 +8,38 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    max-width: 860px;
     margin: 0 auto;
+    max-width: 860px;
     padding: 100px 0;
 }
 .hero__title {
+    width: 450px;
+    font-family: "Montserrat-Semibold", sans-serif;
+        font-style: normal;
+        font-weight: 600;
     font-size: 40px;
     line-height: 49px;
-    width: 450px;
-    animation: slide-in-left 1s ease-in-out both;
-    -webkit-animation: slide-in-left 1s ease-in-out both;
 }
-.hero__img {
-    animation: slide-in-right 1s ease-in-out both;
-    -webkit-animation: slide-in-right 1s ease-in-out both;
+.hero__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 16px 32px;
+    width: 172px;
+    height: 54px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #ECD6B6;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
-.hero__text {
-    display: inline-block;
-    font-size: 30px;
-    line-height: 37px;
-    color: #222222;
-    background: #ecd6b6;
-    padding: 5px 10px;
+.hero__link:hover{
+    color: #333;
+    background-color: #ECD6B6;
 }
 .hero__img {
     width: 350px;

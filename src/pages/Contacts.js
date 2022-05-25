@@ -1,78 +1,80 @@
 import React from 'react';
+import classes from './Contacts.module.css';
 
 const Contacts = () => {
   return (
-    <section className='contacts'>
+    <section className={classes.contacts}>
       <div className='container'>
-        <h3 className='footer__title title'>Contact me!</h3>
-        <div className='footer__inner'>
-          <ul className='footer__social social-list'>
-            <li className='social-list__item'>
+        <h3 className='title'>Contacts</h3>
+        <div className={classes.contacts__inner}>
+          <ul
+            className={`${classes.contacts__social} ${classes['social-list']}`}>
+            <li className={classes['social-list__item']}>
               <a
                 href='https://t.me/goldwinalec'
-                className='social-list__link'
+                className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
                 {/* <img
                   src='/images/social-icon-1.svg'
                   alt='Telegram'
-                  className='social-list__img'
+                  className={classes.social-list__img}
                 /> */}
                 <span>@goldwinalec</span>
               </a>
             </li>
-            <li className='social-list__item'>
+            <li className={classes['social-list__link']}>
               <a
                 href='https://www.instagram.com/goldwinalec'
-                className='social-list__link'
+                className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
                 {/* <img
                   src='/images/social-icon-2.svg'
                   alt='Instagram'
-                  className='social-list__img'
+                  className={classes.social-list__img'
                 /> */}
                 <span>@goldwinalec</span>
               </a>
             </li>
-            <li className='social-list__item'>
+            <li className={classes['social-list__item']}>
               <a
-                href='https://www.facebook.com/goldwinalec'
-                className='social-list__link'
-                target='_blank'
-                rel='noreferrer'>
-                {/* <img
-                  src='/images/social-icon-3.svg'
-                  alt='Facebook'
-                  className='social-list__img'
-                /> */}
-                <span>/goldwinalec</span>
-              </a>
-            </li>
-            <li className='social-list__item'>
-              <a
-                href='mailto:a-g1997@yandex.ru'
-                className='social-list__link'
+                href='mailto:alinagladkova97@gmail'
+                className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
                 {/* <img
                   src='/images/social-icon-4.svg'
                   alt='E-mail'
-                  className='social-list__img'
+                  className={classes.social-list__img}
                 /> */}
-                <span>a-g1997@yandex.ru</span>
+                <span>alinagladkova97@gmail</span>
               </a>
             </li>
-            <li className='social-list__item'>
+            <li className={classes['social-list__item']}>
               <a
                 href='https://github.com/goldwinalec'
-                className='social-list__link'
+                className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
                 {/* <img
                   src='/images/social-icon-5.svg'
                   alt='GitHub'
-                  className='social-list__img'
+                  className={classes.social-list__img}
+                /> */}
+                /goldwinalec<span></span>
+              </a>
+            </li>
+            <li className={classes['social-list__item']}>
+              <a
+                href='https://www.linkedin.com/in/goldwinalec/'
+                className={classes['social-list__link']}
+                target='_blank'
+                rel='noreferrer'>
+                {/* <img
+                  src='/images/social-icon-6.svg'
+                  alt='LinkedIn'
+                  className={classes.social-list__img}
                 /> */}
                 /goldwinalec<span></span>
               </a>
