@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './Hero.module.css';
+import heroImg from '../assets/images/hero-img.jpg';
 
 const Hero = () => {
   return (
@@ -18,7 +19,11 @@ const Hero = () => {
               Contact me
             </Link>
           </div>
-          {/* <img className='hero__img' src='/images/main-img.jpg' alt='' /> */}
+          <img
+            className={classes.hero__img}
+            src={heroImg}
+            alt='Alina Gladkova'
+          />
         </div>
       </div>
     </section>

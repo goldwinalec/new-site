@@ -39,7 +39,7 @@ const Contacts = () => {
             </li>
             <li className={classes['social-list__item']}>
               <a
-                href='mailto:alinagladkova97@gmail'
+                href='mailto:alinagladkova97@gmail.com'
                 className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
@@ -48,7 +48,7 @@ const Contacts = () => {
                   alt='E-mail'
                   className={classes.social-list__img}
                 /> */}
-                <span>alinagladkova97@gmail</span>
+                <span>alinagladkova97@gmail.com</span>
               </a>
             </li>
             <li className={classes['social-list__item']}>

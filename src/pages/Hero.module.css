@@ -9,8 +9,8 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 860px;
     padding: 100px 0;
+    max-width: 990px;
 }
 .hero__title {
     width: 450px;
@@ -18,7 +18,7 @@
         font-style: normal;
         font-weight: 600;
     font-size: 40px;
-    line-height: 49px;
+    line-height: 1.2;
 }
 .hero__link{
     display: flex;

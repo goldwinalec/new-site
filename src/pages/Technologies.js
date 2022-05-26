@@ -1,43 +1,44 @@
 import React from 'react';
+import classes from './Technologies.module.css';
 
 const Technologies = () => {
   return (
-    <section className='technologies'>
+    <section className={classes.technologies}>
       <div className='container'>
-        <h2 className='technologies__title title'>Technologies</h2>
-        <div className='technologies__items'>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>HTML5</h3>
+        <h2 className='title'>Technologies</h2>
+        <div className={classes.technologies__items}>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>HTML5</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>CSS3</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>CSS3</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>JavaScript</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>JavaScript</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>jQuery</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>jQuery</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>GitHub</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>GitHub</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>Bootstrap</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>Bootstrap</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>SASS</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>SASS</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>Adobe Photoshop</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>Adobe Photoshop</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>Figma</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>Figma</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>BEM</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>BEM</div>
           </div>
-          <div className='technologies__item item'>
-            <h3 className='item__title'>WordPress</h3>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>WordPress</div>
           </div>
         </div>
       </div>
