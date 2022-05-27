@@ -14,10 +14,19 @@ const Technologies = () => {
             <div className={classes.item__title}>CSS3</div>
           </div>
           <div className={`${classes.technologies__item} ${classes.item}`}>
-            <div className={classes.item__title}>JavaScript</div>
+            <div className={classes.item__title}>JavaScript ES6</div>
           </div>
           <div className={`${classes.technologies__item} ${classes.item}`}>
-            <div className={classes.item__title}>jQuery</div>
+            <div className={classes.item__title}>Babel</div>
+          </div>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>React</div>
+          </div>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>TypeScript</div>
+          </div>
+          <div className={`${classes.technologies__item} ${classes.item}`}>
+            <div className={classes.item__title}>Git</div>
           </div>
           <div className={`${classes.technologies__item} ${classes.item}`}>
             <div className={classes.item__title}>GitHub</div>

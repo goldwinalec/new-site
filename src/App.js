@@ -2,6 +2,7 @@ import React, { Suspense, Fragment } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import MainHeader from './components/MainHeader';
 import MainFooter from './components/MainFooter';
+import Loader from './components/Loader';
 
 const Hero = React.lazy(() => import('./pages/Hero'));
 const Projects = React.lazy(() => import('./pages/Projects'));
@@ -16,7 +17,7 @@ const App = () => {
     <Fragment>
       <MainHeader />
       <main>
-        <Suspense fallback='Loading...'>
+        <Suspense fallback={<Loader />}>
           <Routes>
             <Route path='/' element={<Hero />} />
             <Route path='/projects' element={<Projects />} />

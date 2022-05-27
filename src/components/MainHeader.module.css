@@ -83,9 +83,7 @@
 }
 .header__menu-link--active {
     color: #ECD6B6;
-    text-decoration-color: inherit;
-        -webkit-text-decoration-color: inherit;
-        -moz-text-decoration-color: inherit;
+    text-decoration: none;
 }
 .header__theme:hover {
     cursor: pointer;
