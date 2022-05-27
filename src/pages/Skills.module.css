@@ -1,0 +1,7 @@
+.skills__items {
+}
+.skills__item {
+}
+.skills__item + .skills__item {
+  margin-top: 15px;
+}

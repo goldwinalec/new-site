@@ -35,8 +35,8 @@ const MainHeader = () => {
                       ? `${classes['header__menu-link']} ${classes['header__menu-link--active']}`
                       : classes['header__menu-link']
                   }
-                  to='/technologies'>
-                  Technologies
+                  to='/skills'>
+                  Skills
                 </NavLink>
               </li>
               <li className={classes['header__menu-item']}>
