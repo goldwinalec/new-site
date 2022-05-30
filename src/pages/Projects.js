@@ -174,6 +174,10 @@ const Projects = () => {
                 SCSS
               </div>
               <div
+                className={`${classes.items__tag} ${classes['items__tag--bootstrap']}`}>
+                Bootstrap 4
+              </div>
+              <div
                 className={`${classes.items__tag} ${classes['items__tag--jquery']}`}>
                 jQuery
               </div>
@@ -191,6 +195,10 @@ const Projects = () => {
               <div
                 className={`${classes.items__tag} ${classes['items__tag--css']}`}>
                 CSS
+              </div>
+              <div
+                className={`${classes.items__tag} ${classes['items__tag--bootstrap']}`}>
+                Bootstrap 4
               </div>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--jquery']}`}>
@@ -229,6 +237,10 @@ const Projects = () => {
               <div
                 className={`${classes.items__tag} ${classes['items__tag--css']}`}>
                 CSS
+              </div>
+              <div
+                className={`${classes.items__tag} ${classes['items__tag--bootstrap']}`}>
+                Bootstrap 4
               </div>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--jquery']}`}>

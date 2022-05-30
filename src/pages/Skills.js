@@ -6,47 +6,36 @@ const Skills = () => {
     <section className={classes.skills}>
       <div className='container'>
         <h2 className='title'>Skills</h2>
-        <div className={classes.skills__items}>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>HTML5</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>CSS3 (SASS, SCSS)</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>JavaScript ES6 (Babel)</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>React</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>TypeScript</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>Git</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>GitHub</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>Bootstrap</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>WordPress</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>Adobe Photoshop</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>Figma</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>BEM</div>
-          </div>
-          <div className={`${classes.skills__item} ${classes.item}`}>
-            <div className={classes.item__title}>English (B2)</div>
-          </div>
-        </div>
+        <ul className={classes.skills__items}>
+          <li className={`${classes.skills__item} ${classes.item}`}>HTML5</li>
+          <li className={`${classes.skills__item} ${classes.item}`}>
+            CSS3 (SASS, SCSS)
+          </li>
+          <li className={`${classes.skills__item} ${classes.item}`}>
+            JavaScript ES6 (Babel)
+          </li>
+          <li className={`${classes.skills__item} ${classes.item}`}>React</li>
+          <li className={`${classes.skills__item} ${classes.item}`}>
+            TypeScript
+          </li>
+          <li className={`${classes.skills__item} ${classes.item}`}>
+            Git / GitHub
+          </li>
+          <li className={`${classes.skills__item} ${classes.item}`}>
+            Bootstrap
+          </li>
+          <li className={`${classes.skills__item} ${classes.item}`}>
+            WordPress
+          </li>
+          <li className={`${classes.skills__item} ${classes.item}`}>
+            Adobe Photoshop
+          </li>
+          <li className={`${classes.skills__item} ${classes.item}`}>Figma</li>
+          <li className={`${classes.skills__item} ${classes.item}`}>BEM</li>
+          <li className={`${classes.skills__item} ${classes.item}`}>
+            English (B2)
+          </li>
+        </ul>
       </div>
     </section>
   );

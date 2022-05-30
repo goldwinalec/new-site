@@ -3,6 +3,7 @@
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 60px 30px;
+  margin-bottom: 50px;
 }
 .items__item {
   width: 380px;

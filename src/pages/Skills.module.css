@@ -1,6 +1,9 @@
 .skills__items {
+  margin-bottom: 50px;
 }
 .skills__item {
+  list-style: circle;
+  list-style-position: inside;
 }
 .skills__item + .skills__item {
   margin-top: 15px;

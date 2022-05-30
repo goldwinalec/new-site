@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Fragment>
       <MainHeader />
-      <main>
+      <main className='main'>
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route path='/' element={<Hero />} />

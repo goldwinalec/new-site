@@ -1,5 +1,10 @@
 import React from 'react';
 import classes from './Contacts.module.css';
+import contactIcon1 from '../assets/images/contacts-icon-1.svg';
+import contactIcon2 from '../assets/images/contacts-icon-2.svg';
+import contactIcon3 from '../assets/images/contacts-icon-3.svg';
+import contactIcon4 from '../assets/images/contacts-icon-4.svg';
+import contactIcon5 from '../assets/images/contacts-icon-5.svg';
 
 const Contacts = () => {
   return (
@@ -15,11 +20,11 @@ const Contacts = () => {
                 className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
-                {/* <img
-                  src='/images/social-icon-1.svg'
+                <img
+                  src={contactIcon1}
                   alt='Telegram'
-                  className={classes.social-list__img}
-                /> */}
+                  className={classes['social-list__img']}
+                />
                 <span>@goldwinalec</span>
               </a>
             </li>
@@ -29,11 +34,11 @@ const Contacts = () => {
                 className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
-                {/* <img
-                  src='/images/social-icon-2.svg'
+                <img
+                  src={contactIcon2}
                   alt='Instagram'
-                  className={classes.social-list__img'
-                /> */}
+                  className={classes['social-list__img']}
+                />
                 <span>@goldwinalec</span>
               </a>
             </li>
@@ -43,11 +48,11 @@ const Contacts = () => {
                 className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
-                {/* <img
-                  src='/images/social-icon-4.svg'
+                <img
+                  src={contactIcon3}
                   alt='E-mail'
-                  className={classes.social-list__img}
-                /> */}
+                  className={classes['social-list__img']}
+                />
                 <span>alinagladkova97@gmail.com</span>
               </a>
             </li>
@@ -57,11 +62,11 @@ const Contacts = () => {
                 className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
-                {/* <img
-                  src='/images/social-icon-5.svg'
+                <img
+                  src={contactIcon4}
                   alt='GitHub'
-                  className={classes.social-list__img}
-                /> */}
+                  className={classes['social-list__img']}
+                />
                 /goldwinalec<span></span>
               </a>
             </li>
@@ -71,11 +76,11 @@ const Contacts = () => {
                 className={classes['social-list__link']}
                 target='_blank'
                 rel='noreferrer'>
-                {/* <img
-                  src='/images/social-icon-6.svg'
+                <img
+                  src={contactIcon5}
                   alt='LinkedIn'
-                  className={classes.social-list__img}
-                /> */}
+                  className={classes['social-list__img']}
+                />
                 /goldwinalec<span></span>
               </a>
             </li>
