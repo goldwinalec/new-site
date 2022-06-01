@@ -5,9 +5,7 @@ const MainFooter = () => {
   return (
     <footer className={classes.footer}>
       <div className='container'>
-        <div className={classes.footer__policy}>
-          GoldwinAlec | 2022 © All rights reserved
-        </div>
+        <div className={classes.footer__policy}>© 2022 GoldwinAlec</div>
       </div>
     </footer>
   );

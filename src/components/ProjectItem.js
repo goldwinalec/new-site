@@ -4,9 +4,13 @@ import classes from './ProjectItem.module.css';
 
 const ProjectItem = ({ data }) => {
   const tags = data.tags.map((tag, i) => {
+    const TagClass = tag.toLowerCase();
     return (
       <div
-        className={`${classes.items__tag} ${classes[`items__tag--$${tag}`]}`}>
+        className={`${classes.items__tag} ${
+          classes['items__tag--' + TagClass]
+        }`}
+        key={i}>
         {tag}
       </div>
     );
@@ -15,10 +19,10 @@ const ProjectItem = ({ data }) => {
   return (
     <div className={classes.items__item}>
       <Link
-        to={`/projects/$${data.URL}`}
+        to={`/projects${data.URL}`}
         className={classes.items__link}
         style={{
-          backgroundImage: `url($${data.imageSrc})`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}${data.imageSrc})`,
         }}></Link>
       <div className={classes.items__tags}>{tags}</div>
     </div>
