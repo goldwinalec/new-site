@@ -19,11 +19,12 @@ const ProjectItem = ({ data }) => {
   return (
     <div className={classes.items__item}>
       <Link
-        to={`/projects${data.URL}`}
+        to={`/projects/${data.URL}`}
         className={classes.items__link}
         style={{
-          backgroundImage: `url(${process.env.PUBLIC_URL}${data.imageSrc})`,
-        }}></Link>
+          backgroundImage: `url(/${process.env.PUBLIC_URL}${data.imageSrc})`,
+        }}
+      />
       <div className={classes.items__tags}>{tags}</div>
     </div>
   );

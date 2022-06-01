@@ -9,7 +9,7 @@
             "JavaScript"
         ],
         "date": "02.2022",
-        "URL": "/icetory",
+        "URL": "icetory",
         "sourceLink": "https://ga-icetory.netlify.app"
     },
     {
@@ -22,7 +22,7 @@
             "JavaScript"
         ],
         "date": "02.2022",
-        "URL": "/anna-berns",
+        "URL": "anna-berns",
         "sourceLink": "https://annaberns.ru",
         "GitHubLink": "https://github.com/goldwinalec/berns"
     },
@@ -36,7 +36,7 @@
             "JavaScript"
         ],
         "date": "12.2021",
-        "URL": "/gramstar",
+        "URL": "gramstar",
         "sourceLink": "https://gramstar.ru",
         "GitHubLink": "https://github.com/goldwinalec/gs"
     },
@@ -51,7 +51,7 @@
             "WordPress"
         ],
         "date": "08.2021",
-        "URL": "/pumpit",
+        "URL": "pumpit",
         "sourceLink": "https://pumpit.app",
         "GitHubLink": "https://github.com/goldwinalec/pumpit"
     },
@@ -65,7 +65,7 @@
             "JavaScript"
         ],
         "date": "04.2021",
-        "URL": "/viby",
+        "URL": "viby",
         "sourceLink": "https://goldwinalec-viby.netlify.app",
         "GitHubLink": "https://github.com/goldwinalec/viby"
     },
@@ -79,7 +79,7 @@
             "JavaScript"
         ],
         "date": "01.2021",
-        "URL": "/goldwinalec-old",
+        "URL": "goldwinalec-old",
         "sourceLink": "https://goldwinalec-old.netlify.app",
         "GitHubLink": "https://github.com/goldwinalec/site"
     },
@@ -94,7 +94,7 @@
             "Wordpress"
         ],
         "date": "11.2020",
-        "URL": "/petroleum",
+        "URL": "petroleum",
         "sourceLink": "https://ga-diztop.netlify.app/",
         "GitHubLink": "https://github.com/goldwinalec/diztop"
     },
@@ -109,7 +109,7 @@
             "jQuery"
         ],
         "date": "05.2020",
-        "URL": "/plumbing-store",
+        "URL": "plumbing-store",
         "sourceLink": "https://goldwinalec-santehnika-tut.netlify.app/",
         "GitHubLink": "https://github.com/goldwinalec/santehnika-tut"
     },
@@ -124,7 +124,7 @@
             "jQuery"
         ],
         "date": "05.2020",
-        "URL": "/trees",
+        "URL": "trees",
         "sourceLink": "https://goldwinalec-christmas-trees.netlify.app/",
         "GitHubLink": "https://github.com/goldwinalec/christmas-tree"
     },
@@ -138,7 +138,7 @@
             "jQuery"
         ],
         "date": "04.2020",
-        "URL": "/piedpiper",
+        "URL": "piedpiper",
         "sourceLink": "https://goldwinalec-piedpiper.netlify.app",
         "GitHubLink": "https://github.com/goldwinalec/PiedPiper"
     },
@@ -153,7 +153,7 @@
             "jQuery"
         ],
         "date": "04.2020",
-        "URL": "/ubereats",
+        "URL": "ubereats",
         "sourceLink": "https://goldwinalec-ubereats.netlify.app/",
         "GitHubLink": "https://github.com/goldwinalec/ubereats"
     }
