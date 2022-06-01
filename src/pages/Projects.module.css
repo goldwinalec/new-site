@@ -8,19 +8,13 @@
 .items__item {
   width: 380px;
 }
-.items__img {
+.items__link {
   display: block;
-  width: 100%;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-}
-.items__img:hover {
-  cursor: pointer;
-  -webkit-box-shadow: 4px 4px 8px 0px rgba(102, 102, 102, 0.2);
-  box-shadow: 4px 4px 8px 0px rgba(102, 102, 102, 0.2);
+  width: 380px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
 .items__tags {
   display: flex;

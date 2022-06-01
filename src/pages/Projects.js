@@ -20,9 +20,12 @@ const Projects = () => {
         <h2 className='title'>Projects</h2>
         <div className={classes.items}>
           <div className={classes.items__item}>
-            <Link to='/projects/p1'>
-              <img className={classes.items__img} src={projectImg1} alt='' />
-            </Link>
+            <Link
+              to='/projects/p1'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg1})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -39,9 +42,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p2'>
-              <img className={classes.items__img} src={projectImg2} alt='' />
-            </Link>
+            <Link
+              to='/projects/p2'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg2})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -58,9 +64,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p3'>
-              <img className={classes.items__img} src={projectImg3} alt='' />
-            </Link>
+            <Link
+              to='/projects/p3'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg3})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -77,9 +86,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p4'>
-              <img className={classes.items__img} src={projectImg4} alt='' />
-            </Link>
+            <Link
+              to='/projects/p4'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg4})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -100,9 +112,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p5'>
-              <img className={classes.items__img} src={projectImg5} alt='' />
-            </Link>
+            <Link
+              to='/projects/p5'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg5})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -119,9 +134,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p6'>
-              <img className={classes.items__img} src={projectImg6} alt='' />
-            </Link>
+            <Link
+              to='/projects/p6'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg6})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -138,9 +156,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p7'>
-              <img className={classes.items__img} src={projectImg7} alt='' />
-            </Link>
+            <Link
+              to='/projects/p7'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg7})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -161,9 +182,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p8'>
-              <img className={classes.items__img} src={projectImg8} alt='' />
-            </Link>
+            <Link
+              to='/projects/p8'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg8})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -184,9 +208,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p9'>
-              <img className={classes.items__img} src={projectImg9} alt='' />
-            </Link>
+            <Link
+              to='/projects/p9'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg9})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -207,9 +234,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p10'>
-              <img className={classes.items__img} src={projectImg10} alt='' />
-            </Link>
+            <Link
+              to='/projects/p10'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg10})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
@@ -226,9 +256,12 @@ const Projects = () => {
             </div>
           </div>
           <div className={classes.items__item}>
-            <Link to='/projects/p11'>
-              <img className={classes.items__img} src={projectImg11} alt='' />
-            </Link>
+            <Link
+              to='/projects/p11'
+              className={classes.items__link}
+              style={{
+                backgroundImage: `url(${projectImg11})`,
+              }}></Link>
             <div className={classes.items__tags}>
               <div
                 className={`${classes.items__tag} ${classes['items__tag--html']}`}>
