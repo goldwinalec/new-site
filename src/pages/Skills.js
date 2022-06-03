@@ -11,27 +11,21 @@ const Skills = () => {
           <li className={`${classes.skills__item} ${classes.item}`}>
             CSS3 (SASS, SCSS)
           </li>
+          <li className={`${classes.skills__item} ${classes.item}`}>BEM</li>
           <li className={`${classes.skills__item} ${classes.item}`}>
             JavaScript ES6 (Babel)
           </li>
           <li className={`${classes.skills__item} ${classes.item}`}>React</li>
           <li className={`${classes.skills__item} ${classes.item}`}>
-            TypeScript
-          </li>
-          <li className={`${classes.skills__item} ${classes.item}`}>
             Git / GitHub
           </li>
+          <li className={`${classes.skills__item} ${classes.item}`}>Gulp</li>
           <li className={`${classes.skills__item} ${classes.item}`}>
             Bootstrap
           </li>
           <li className={`${classes.skills__item} ${classes.item}`}>
-            WordPress
+            Adobe Photoshop | Figma | Sketch
           </li>
-          <li className={`${classes.skills__item} ${classes.item}`}>
-            Adobe Photoshop
-          </li>
-          <li className={`${classes.skills__item} ${classes.item}`}>Figma</li>
-          <li className={`${classes.skills__item} ${classes.item}`}>BEM</li>
           <li className={`${classes.skills__item} ${classes.item}`}>
             English (B2)
           </li>

@@ -1,8 +1,33 @@
 [
     {
-        "name": "Icetory Delivery Website",
+        "name": "To-do list React App",
         "imageSrc": "images/project-1.jpg",
         "id": "01",
+        "tags": [
+            "React",
+            "CSS",
+            "JavaScript"
+        ],
+        "date": "Coming soon",
+        "URL": "todo"
+    },
+    {
+        "name": "GoldwinAlec React App",
+        "imageSrc": "images/project-2.jpg",
+        "id": "02",
+        "tags": [
+            "React",
+            "CSS",
+            "JavaScript"
+        ],
+        "date": "06.2022",
+        "URL": "goldwinalec",
+        "GitHubLink": "https://github.com/goldwinalec/new-site"
+    },
+    {
+        "name": "Icetory Delivery Website",
+        "imageSrc": "images/project-3.jpg",
+        "id": "03",
         "tags": [
             "HTML",
             "SCSS",
@@ -14,8 +39,8 @@
     },
     {
         "name": "Photographer Portfolio Website",
-        "imageSrc": "images/project-2.jpg",
-        "id": "02",
+        "imageSrc": "images/project-4.jpg",
+        "id": "04",
         "tags": [
             "HTML",
             "SCSS",
@@ -28,8 +53,8 @@
     },
     {
         "name": "Gramstar Website",
-        "imageSrc": "images/project-3.jpg",
-        "id": "03",
+        "imageSrc": "images/project-5.jpg",
+        "id": "05",
         "tags": [
             "HTML",
             "SCSS",
@@ -42,8 +67,8 @@
     },
     {
         "name": "Pumpit Website",
-        "imageSrc": "images/project-4.jpg",
-        "id": "04",
+        "imageSrc": "images/project-6.jpg",
+        "id": "06",
         "tags": [
             "HTML",
             "SCSS",
@@ -57,8 +82,8 @@
     },
     {
         "name": "Viby Website",
-        "imageSrc": "images/project-5.jpg",
-        "id": "05",
+        "imageSrc": "images/project-7.jpg",
+        "id": "07",
         "tags": [
             "HTML",
             "CSS",
@@ -71,8 +96,8 @@
     },
     {
         "name": "Portfolio Website",
-        "imageSrc": "images/project-6.jpg",
-        "id": "06",
+        "imageSrc": "images/project-8.jpg",
+        "id": "08",
         "tags": [
             "HTML",
             "SCSS",
@@ -85,8 +110,8 @@
     },
     {
         "name": "Diesel Fuel Shop Website",
-        "imageSrc": "images/project-7.jpg",
-        "id": "07",
+        "imageSrc": "images/project-9.jpg",
+        "id": "09",
         "tags": [
             "HTML",
             "SCSS",
@@ -100,8 +125,8 @@
     },
     {
         "name": "Plumbing Store Website",
-        "imageSrc": "images/project-8.jpg",
-        "id": "08",
+        "imageSrc": "images/project-10.jpg",
+        "id": "10",
         "tags": [
             "HTML",
             "SCSS",
@@ -115,8 +140,8 @@
     },
     {
         "name": "Christmas Trees Store Website",
-        "imageSrc": "images/project-9.jpg",
-        "id": "09",
+        "imageSrc": "images/project-11.jpg",
+        "id": "11",
         "tags": [
             "HTML",
             "CSS",
@@ -130,8 +155,8 @@
     },
     {
         "name": "PiedPiper Website",
-        "imageSrc": "images/project-10.jpg",
-        "id": "10",
+        "imageSrc": "images/project-12.jpg",
+        "id": "12",
         "tags": [
             "HTML",
             "CSS",
@@ -144,8 +169,8 @@
     },
     {
         "name": "UberEats Website",
-        "imageSrc": "images/project-11.jpg",
-        "id": "11",
+        "imageSrc": "images/project-13.jpg",
+        "id": "13",
         "tags": [
             "HTML",
             "CSS",

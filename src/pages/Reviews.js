@@ -25,7 +25,7 @@ const Reviews = () => {
               className={classes.reviews__link}
               target='_blank'
               rel='noreferrer'>
-              Avito
+              <span className={classes['reviews__link--hidden']}>Avito</span>
             </a>
           </div>
           <div
@@ -44,7 +44,7 @@ const Reviews = () => {
               className={classes.reviews__link}
               target='_blank'
               rel='noreferrer'>
-              Avito
+              <span className={classes['reviews__link--hidden']}>Avito</span>
             </a>
           </div>
         </div>

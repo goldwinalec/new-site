@@ -1,47 +1,51 @@
 .reviews__items {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .reviews__item {
-    position: relative;
-    flex-basis: 48%;
-    align-self: stretch;
-    padding: 20px;
-    padding-bottom: 50px;
-    background-color: #fff;
-    color: #333;
+  position: relative;
+  flex-basis: 48%;
+  align-self: stretch;
+  padding: 20px;
+  padding-bottom: 50px;
+  background-color: #fff;
+  color: #333;
 }
-
-.reviews__item::before {
-    position: absolute;
-    content: '';
-    width: 30px;
-    height: 27px;
-    /* background-image: url("/images/quote.svg"); */
-    background-repeat: no-repeat;
-    background-position: center;
-    left: -7px;
-    top: -18px;
-}
-
 .reviews__text {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 .reviews__link {
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-    color: #333;
-    text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  width: 50px;
+  height: 18px;
+  background-image: url('/src/assets/images/avito.svg');
+  transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
 }
-
-.reviews__link:hover{
-    text-decoration: underline;
+.reviews__link:hover {
+  opacity: 0.7;
 }
-
+.reviews__link--hidden {
+  display: none;
+}
 .reviews__author {
-    color: #000;
+  color: #000;
+}
+@media (max-width: 991px) {
+  .reviews__items {
+    flex-direction: column;
+  }
+  .reviews__item {
+    flex-basis: 100%;
+  }
+  .reviews__item + .reviews__item {
+    margin-top: 16px;
+  }
 }

@@ -28,7 +28,7 @@ const Contacts = () => {
                 <span>@goldwinalec</span>
               </a>
             </li>
-            <li className={classes['social-list__link']}>
+            <li className={classes['social-list__item']}>
               <a
                 href='https://www.instagram.com/goldwinalec'
                 className={classes['social-list__link']}

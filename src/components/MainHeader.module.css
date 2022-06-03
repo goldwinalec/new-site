@@ -20,43 +20,6 @@
   -ms-flex-align: end;
   align-items: flex-end;
 }
-.header__nav-toggle {
-  display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  width: 30px;
-  height: 20px;
-  z-index: 10;
-}
-.header__nav-line {
-  width: 100%;
-  height: 2px;
-  background-color: #aaa;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-}
-.header__nav-toggle--active .header__nav-line:first-child {
-  -webkit-transform: translateY(9px) rotate(45deg);
-  transform: translateY(9px) rotate(45deg);
-}
-.header__nav-toggle--active .header__nav-line:nth-child(2) {
-  opacity: 0;
-}
-.header__nav-toggle--active .header__nav-line:last-child {
-  -webkit-transform: translateY(-9px) rotate(135deg);
-  transform: translateY(-9px) rotate(135deg);
-}
 .header__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,6 +30,9 @@
 }
 .header__menu-item + .header__menu-item {
   margin-left: 45px;
+}
+.header__link {
+  display: block;
 }
 .header__menu-link {
   color: #fff;
@@ -86,25 +52,22 @@
   color: #ecd6b6;
   text-decoration: none;
 }
-.header__theme:hover {
-  cursor: pointer;
+
+@media (max-width: 991px) {
+  .header__menu-item + .header__menu-item {
+    margin-left: 20px;
+  }
 }
-.header__theme {
-  position: relative;
-  width: 18px;
-  height: 22px;
-  display: block;
-}
-.page--light .header__theme::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 18px;
-  height: 18px;
-  /* background-image: url("/images/switch-light.svg"); */
-  content: '';
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 0;
-  z-index: 1;
+@media (max-width: 768px) {
+  .header__inner {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .header__link {
+    margin-right: 45px;
+    margin-bottom: 8px;
+  }
+  .header__logo {
+    width: 115px;
+  }
 }

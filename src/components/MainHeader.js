@@ -8,7 +8,7 @@ const MainHeader = () => {
     <header className={classes.header}>
       <div className='container'>
         <div className={classes.header__inner}>
-          <Link className={classes['header__menu-link']} to='/'>
+          <Link className={classes['header__link']} to='/'>
             <img
               className={classes.header__logo}
               src={logoImg}

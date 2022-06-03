@@ -1,9 +1,35 @@
-.title--404{
-    margin-top: 32px;
-    font-family: "Montserrat-Semibold", sans-serif;
-        font-style: normal;
-        font-weight: 600;
-    font-size: 160px;
-    line-height: 1.2;
-    text-align: center;
+.NF__title {
+  margin-top: 32px;
+  font-family: 'Montserrat-Semibold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 160px;
+  line-height: 1.2;
+  text-align: center;
+}
+.NF__text {
+  text-align: center;
+  margin-top: 24px;
+}
+.NF_link {
+  display: block;
+  margin: 0 auto;
+  margin-top: 16px;
+  padding: 16px 32px;
+  width: 194px;
+  height: 54px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #ecd6b6;
+  color: #fff;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.NF_link:hover {
+  background: #ecd6b6;
+  color: #222;
 }

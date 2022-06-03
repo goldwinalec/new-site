@@ -50,3 +50,39 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
 }
+
+@media (max-width: 991px) {
+  .hero__title {
+    font-size: 35px;
+  }
+  .hero__link {
+    width: 155px;
+  }
+}
+@media (max-width: 768px) {
+  .hero__inner {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .hero__img {
+    align-self: center;
+    width: 200px;
+  }
+  .hero__text {
+    margin-top: 24px;
+  }
+  .hero__title {
+    width: auto;
+  }
+}
+@media (max-width: 576px) {
+  .hero__title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 380px) {
+  .hero__title {
+    font-size: 25px;
+  }
+}

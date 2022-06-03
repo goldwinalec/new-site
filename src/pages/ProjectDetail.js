@@ -1,6 +1,9 @@
 import React from 'react';
 import projectsData from '../data/projects-data.json';
 import { useParams, Link } from 'react-router-dom';
+import linkIcon from '../assets/images/link.svg';
+import gitHubIcon from '../assets/images/contacts-icon-4.svg';
+import backIcon from '../assets/images/back.svg';
 import classes from './ProjectDetail.module.css';
 
 const ProjectDetail = () => {
@@ -17,15 +20,17 @@ const ProjectDetail = () => {
           <li className={classes['project__list-item']}>
             Date: {currentProject.date}
           </li>
-          <li className={classes['project__list-item']}>
-            <a
-              className={classes['project__list-link']}
-              href={currentProject.sourceLink}
-              target='_blank'
-              rel='noreferrer'>
-              {currentProject.sourceLink}
-            </a>
-          </li>
+          {currentProject.sourceLink && (
+            <li className={classes['project__list-item']}>
+              <a
+                className={classes['project__list-link']}
+                href={currentProject.sourceLink}
+                target='_blank'
+                rel='noreferrer'>
+                <img src={linkIcon} alt='External link' />
+              </a>
+            </li>
+          )}
           {currentProject.GitHubLink && (
             <li className={classes['project__list-item']}>
               <a
@@ -33,7 +38,7 @@ const ProjectDetail = () => {
                 href={currentProject.GitHubLink}
                 target='_blank'
                 rel='noreferrer'>
-                {currentProject.GitHubLink}
+                <img src={gitHubIcon} alt='GitHub link' />
               </a>
             </li>
           )}
@@ -47,7 +52,7 @@ const ProjectDetail = () => {
       </div>
 
       <Link className={classes.project__link} to='/projects'>
-        Back to all projects
+        <img src={backIcon} alt='Back to projects' />
       </Link>
     </div>
   );
