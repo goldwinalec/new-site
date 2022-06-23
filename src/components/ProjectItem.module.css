@@ -7,9 +7,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
 .items__link:hover {
-  box-shadow: 0px 0px 10px 5px #333;
+  box-shadow: 0px 0px 10px 5px rgb(255 255 255 / 10%);
 }
 .items__tags {
   display: flex;

@@ -24,6 +24,7 @@ const ProjectItem = ({ data }) => {
         style={{
           backgroundImage: `url(/${process.env.PUBLIC_URL}${data.imageSrc})`,
         }}
+        title='More'
       />
       <div className={classes.items__tags}>{tags}</div>
     </div>

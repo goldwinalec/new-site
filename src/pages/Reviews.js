@@ -9,7 +9,7 @@ const Reviews = () => {
         <div className={classes.reviews__items}>
           <div
             className={`${classes.reviews__item} ${classes['reviews__item--avito']}`}>
-            <p className={classes.reviews__text}>
+            <blockquote className={classes.reviews__text}>
               Алина очень быстро сверстала лендинг, по-человечески отзывчиво
               общалась. Верстка сделана качественно и разумно просто для моего
               конкретного лендинга, хорошо ведет репозиторий, сразу же в момент
@@ -19,7 +19,7 @@ const Reviews = () => {
                 {' '}
                 &mdash;&nbsp;Илья
               </span>
-            </p>
+            </blockquote>
             <a
               href='https://www.avito.ru/user/fa4aa8adaed453de1ff5be0b25ae0d34/profile#open-reviews-list'
               className={classes.reviews__link}
@@ -30,7 +30,7 @@ const Reviews = () => {
           </div>
           <div
             className={`${classes.reviews__item} ${classes['reviews__item--avito']}`}>
-            <p className={classes.reviews__text}>
+            <blockquote className={classes.reviews__text}>
               Грамотный, отзывчивый специалист. Работает четко и качественно,
               предоплату в данном случае считаю вполне справедливой. Остался
               доволен :)
@@ -38,7 +38,7 @@ const Reviews = () => {
                 {' '}
                 &mdash;&nbsp;Максим
               </span>
-            </p>
+            </blockquote>
             <a
               href='https://www.avito.ru/user/fa4aa8adaed453de1ff5be0b25ae0d34/profile#open-reviews-list'
               className={classes.reviews__link}

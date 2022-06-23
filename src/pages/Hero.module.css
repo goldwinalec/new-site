@@ -3,10 +3,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 auto;
   padding: 72px 0;
@@ -34,7 +32,6 @@
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
 .hero__link:hover {
@@ -47,7 +44,6 @@
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
   -o-border-radius: 100%;
 }
 

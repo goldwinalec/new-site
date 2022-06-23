@@ -8,8 +8,16 @@
             "CSS",
             "JavaScript"
         ],
-        "date": "Coming soon",
-        "URL": "todo"
+        "date": "Jun 2022",
+        "URL": "todo",
+        "GitHubLink": "https://github.com/goldwinalec/react-to-do",
+        "sourceLink": "https://ga-todo.netlify.app",
+        "technologies": [
+            "ReactJS (useState, useRef, useEffect, Custom Hooks, Fetch API)",
+            "JavaScript",
+            "CSS",
+            "Realtime Database (Firebase)"
+        ]
     },
     {
         "name": "GoldwinAlec React App",
@@ -20,9 +28,14 @@
             "CSS",
             "JavaScript"
         ],
-        "date": "06.2022",
+        "date": "Jun 2022",
         "URL": "goldwinalec",
-        "GitHubLink": "https://github.com/goldwinalec/new-site"
+        "GitHubLink": "https://github.com/goldwinalec/new-site",
+        "technologies": [
+            "ReactJS (React Router, useParams)",
+            "CSS",
+            "JavaScript"
+        ]
     },
     {
         "name": "Icetory Delivery Website",
@@ -33,9 +46,14 @@
             "SCSS",
             "JavaScript"
         ],
-        "date": "02.2022",
+        "date": "Feb 2022",
         "URL": "icetory",
-        "sourceLink": "https://ga-icetory.netlify.app"
+        "sourceLink": "https://ga-icetory.netlify.app",
+        "technologies": [
+            "HTML",
+            "SCSS",
+            "JavaScript (SwiperJS)"
+        ]
     },
     {
         "name": "Photographer Portfolio Website",
@@ -46,10 +64,17 @@
             "SCSS",
             "JavaScript"
         ],
-        "date": "02.2022",
+        "date": "Feb 2022",
         "URL": "anna-berns",
         "sourceLink": "https://annaberns.ru",
-        "GitHubLink": "https://github.com/goldwinalec/berns"
+        "GitHubLink": "https://github.com/goldwinalec/berns",
+        "technologies": [
+            "HTML",
+            "SCSS",
+            "JavaScript (Intersection Observer, SwiperJS)",
+            "SVG Animation",
+            "Custom cursor"
+        ]
     },
     {
         "name": "Gramstar Website",
@@ -60,10 +85,15 @@
             "SCSS",
             "JavaScript"
         ],
-        "date": "12.2021",
+        "date": "Dec 2021",
         "URL": "gramstar",
         "sourceLink": "https://gramstar.ru",
-        "GitHubLink": "https://github.com/goldwinalec/gs"
+        "GitHubLink": "https://github.com/goldwinalec/gs",
+        "technologies": [
+            "HTML",
+            "SCSS",
+            "JavaScript (SwiperJS, AccordionJS)"
+        ]
     },
     {
         "name": "Pumpit Website",
@@ -75,10 +105,16 @@
             "JavaScript",
             "WordPress"
         ],
-        "date": "08.2021",
+        "date": "Aug 2021",
         "URL": "pumpit",
         "sourceLink": "https://pumpit.app",
-        "GitHubLink": "https://github.com/goldwinalec/pumpit"
+        "GitHubLink": "https://github.com/goldwinalec/pumpit",
+        "technologies": [
+            "HTML",
+            "SCSS",
+            "JavaScript (SwiperJS, Animation)",
+            "WordPress"
+        ]
     },
     {
         "name": "Viby Website",
@@ -89,10 +125,15 @@
             "CSS",
             "JavaScript"
         ],
-        "date": "04.2021",
+        "date": "Mar 2021",
         "URL": "viby",
         "sourceLink": "https://goldwinalec-viby.netlify.app",
-        "GitHubLink": "https://github.com/goldwinalec/viby"
+        "GitHubLink": "https://github.com/goldwinalec/viby",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript (Slick Slider, Drop-down text)"
+        ]
     },
     {
         "name": "Portfolio Website",
@@ -103,10 +144,15 @@
             "SCSS",
             "JavaScript"
         ],
-        "date": "01.2021",
+        "date": "Jan 2021",
         "URL": "goldwinalec-old",
         "sourceLink": "https://goldwinalec-old.netlify.app",
-        "GitHubLink": "https://github.com/goldwinalec/site"
+        "GitHubLink": "https://github.com/goldwinalec/site",
+        "technologies": [
+            "HTML",
+            "SCSS",
+            "JavaScript (SwiperJS, Animation, Dark/light theme)"
+        ]
     },
     {
         "name": "Diesel Fuel Shop Website",
@@ -118,10 +164,16 @@
             "jQuery",
             "Wordpress"
         ],
-        "date": "11.2020",
+        "date": "Nov 2020",
         "URL": "petroleum",
         "sourceLink": "https://ga-diztop.netlify.app/",
-        "GitHubLink": "https://github.com/goldwinalec/diztop"
+        "GitHubLink": "https://github.com/goldwinalec/diztop",
+        "technologies": [
+            "HTML",
+            "SCSS (Parallax effect)",
+            "jQuery (Slick Slider, Countdown timer)",
+            "WordPress"
+        ]
     },
     {
         "name": "Plumbing Store Website",
@@ -133,10 +185,16 @@
             "Bootstrap",
             "jQuery"
         ],
-        "date": "05.2020",
+        "date": "May 2020",
         "URL": "plumbing-store",
         "sourceLink": "https://goldwinalec-santehnika-tut.netlify.app/",
-        "GitHubLink": "https://github.com/goldwinalec/santehnika-tut"
+        "GitHubLink": "https://github.com/goldwinalec/santehnika-tut",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap 4",
+            "jQuery (Slick Slider)"
+        ]
     },
     {
         "name": "Christmas Trees Store Website",
@@ -148,10 +206,16 @@
             "Bootstrap",
             "jQuery"
         ],
-        "date": "05.2020",
+        "date": "May 2020",
         "URL": "trees",
         "sourceLink": "https://goldwinalec-christmas-trees.netlify.app/",
-        "GitHubLink": "https://github.com/goldwinalec/christmas-tree"
+        "GitHubLink": "https://github.com/goldwinalec/christmas-tree",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap 4",
+            "jQuery (Slick Slider)"
+        ]
     },
     {
         "name": "PiedPiper Website",
@@ -162,10 +226,15 @@
             "CSS",
             "jQuery"
         ],
-        "date": "04.2020",
+        "date": "Apr 2020",
         "URL": "piedpiper",
         "sourceLink": "https://goldwinalec-piedpiper.netlify.app",
-        "GitHubLink": "https://github.com/goldwinalec/PiedPiper"
+        "GitHubLink": "https://github.com/goldwinalec/PiedPiper",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "jQuery"
+        ]
     },
     {
         "name": "UberEats Website",
@@ -177,9 +246,15 @@
             "Bootstrap",
             "jQuery"
         ],
-        "date": "04.2020",
+        "date": "Apr 2020",
         "URL": "ubereats",
         "sourceLink": "https://goldwinalec-ubereats.netlify.app/",
-        "GitHubLink": "https://github.com/goldwinalec/ubereats"
+        "GitHubLink": "https://github.com/goldwinalec/ubereats",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "Bootstrap 4",
+            "jQuery (Tabs)"
+        ]
     }
 ]
